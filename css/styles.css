@@ -146,7 +146,7 @@ img {
 
 .contact-list {
     display: inline;
-     margin-left: auto;
+    margin-left: auto;
    
        
 }
@@ -188,13 +188,6 @@ img {
     
 }
 
-.contact-icon-envelope {
-    width: 16px;
-    height: 12px;
-    fill: currentColor;
-    margin-right: 10px;
-}
-
 .contact-icon {
     fill: currentColor;
     margin-right: 10px;
@@ -212,6 +205,7 @@ img {
 
 
 /*Hero*/
+
 .main-title {
     max-width: 1600px;
     
@@ -279,6 +273,7 @@ img {
     display: flex;
     gap: 8px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
 }
 
@@ -298,7 +293,7 @@ img {
     cursor: pointer;
     color: var(--dark-color);
     
-    padding: 6px 22px ;
+    padding: 6px 22px;
     
 }
 
@@ -540,15 +535,20 @@ img {
 
 .sample-item {
     flex-basis: 370px;
-
-    
+   
+}
+.sample-link {
+    display: block; 
+    text-decoration: none;
     
 }
 
-.sample-item:hover, .sample-item:focus {
-border: 1px solid #EEEEEE;
+.sample-link:hover,
+.sample-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+
 
 .sample-div {
     padding: 20px 24px;
